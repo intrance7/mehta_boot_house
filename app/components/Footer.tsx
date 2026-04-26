@@ -180,7 +180,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
             >
-              <PhoneIcon size={16} className="inline mr-1" /> +91 99836 73600
+              <PhoneIcon size={16} className="inline mr-1" /> +91 78766 24340
             </a>
             <a
               href={`mailto:${SITE_CONFIG.email}`}
