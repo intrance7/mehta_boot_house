@@ -1,0 +1,137 @@
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  originalPrice?: number;
+  images: string[];
+  tag?: string;
+  category: string;
+  sizes: number[];
+  description: string;
+};
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Nike Style Sneakers",
+    price: 799,
+    originalPrice: 999,
+    images: ["/shoes1.png", "/shoes1.png"],
+    tag: "Best Seller",
+    category: "sports",
+    sizes: [7, 8, 9, 10],
+    description: "Comfortable and stylish sneakers perfect for sports and casual wear.",
+  },
+  {
+    id: 2,
+    name: "Casual White Shoes",
+    price: 599,
+    originalPrice: 799,
+    images: ["/shoes1.png", "/shoes1.png"],
+    tag: "Trending",
+    category: "casual",
+    sizes: [6, 7, 8, 9],
+    description: "Elegant white shoes for everyday casual outings.",
+  },
+  {
+    id: 3,
+    name: "Formal Leather Loafers",
+    price: 1299,
+    originalPrice: 1599,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "formal",
+    sizes: [7, 8, 9, 10, 11],
+    description: "Premium leather loafers built for the office and elegant events.",
+  },
+  {
+    id: 4,
+    name: "Running Boost Sneakers",
+    price: 1499,
+    originalPrice: 1999,
+    images: ["/shoes1.png", "/shoes1.png"],
+    tag: "New",
+    category: "sports",
+    sizes: [6, 7, 8, 9, 10],
+    description: "High-performance running shoes with advanced cushioning technology.",
+  },
+  {
+    id: 5,
+    name: "Kids Velvet Slip-ons",
+    price: 499,
+    originalPrice: 599,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "kids",
+    sizes: [3, 4, 5, 6],
+    description: "Soft velvet slip-ons designed specifically for children's sensitive feet.",
+  },
+  {
+    id: 6,
+    name: "Beach Walking Sandals",
+    price: 349,
+    originalPrice: 499,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "sandals",
+    sizes: [7, 8, 9, 10],
+    description: "Breathable open-toe sandals that are water-resistant and durable.",
+  },
+  {
+    id: 7,
+    name: "Heavy Duty Work Boots",
+    price: 1899,
+    originalPrice: 2499,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "boots",
+    sizes: [8, 9, 10, 11],
+    description: "Tough, steel-toe boots designed to handle the harshest work environments.",
+  },
+  {
+    id: 8,
+    name: "Minimalist Black Oxfords",
+    price: 1399,
+    originalPrice: 1899,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "formal",
+    sizes: [7, 8, 9, 10],
+    description: "Sleek and professional black oxfords for the modern gentleman.",
+  },
+  {
+    id: 9,
+    name: "Everyday Canvas Sneakers",
+    price: 699,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "casual",
+    sizes: [6, 7, 8, 9, 10],
+    description: "Lightweight canvas sneakers perfect for throwing on and heading out.",
+  },
+  {
+    id: 10,
+    name: "Ergonomic Trail Trainers",
+    price: 1699,
+    originalPrice: 2199,
+    images: ["/shoes1.png", "/shoes1.png"],
+    tag: "Pro",
+    category: "sports",
+    sizes: [8, 9, 10, 11],
+    description: "Engineered for maximum grip and stability on uneven terrain.",
+  },
+  {
+    id: 11,
+    name: "Summer Flip Flops",
+    price: 199,
+    originalPrice: 299,
+    images: ["/shoes1.png", "/shoes1.png"],
+    category: "sandals",
+    sizes: [6, 7, 8, 9, 10, 11],
+    description: "Simple, highly flexible flip flops for lazy summer afternoons.",
+  },
+  {
+    id: 12,
+    name: "Kids Rainbow Sneakers",
+    price: 549,
+    images: ["/shoes1.png", "/shoes1.png"],
+    tag: "Fun",
+    category: "kids",
+    sizes: [3, 4, 5, 6],
+    description: "Colorful and fun sneakers that your kids will actually want to wear.",
+  },
+];
