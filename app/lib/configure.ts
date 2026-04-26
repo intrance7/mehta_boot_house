@@ -5,10 +5,10 @@
 export const SITE_CONFIG = {
   name: "Mehta Boot House",
   tagline: "Premium Footwear Since 1987",
-  phone: "919983673600",        // WhatsApp number with country code
+  phone: "917876624340",        // WhatsApp number with country code
   email: "mehtaboothouse@gmail.com",
   address: "Naya Bazaar Rd, Patel Nagar, Tohana, Haryana 125120",
-  instagram: "https://instagram.com/mehtaboothouse",
+  instagram: "https://instagram.com/mehta_boot_house_tohana",
   facebook: "https://facebook.com/mehtaboothouse",
   whatsappGreeting: "Hi! I'm browsing Mehta Boot House and need help.",
 } as const;

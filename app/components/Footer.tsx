@@ -70,7 +70,7 @@ function LocationMap() {
                   rel="noopener noreferrer"
                   className="text-gray-400 text-sm hover:text-white transition"
                 >
-                  +91 99836 73600
+                  +91 78766 24340 
                 </a>
               </div>
             </div>

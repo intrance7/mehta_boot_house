@@ -143,8 +143,8 @@ function DiscountPopup() {
 
   return (
     <>
-      <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 animate-fade-in" onClick={() => setShow(false)} />
-      <div className="fixed z-[51] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%-2rem)] md:w-[760px] bg-zinc-900 border border-zinc-800 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.5)] overflow-hidden animate-scale-in">
+      <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[60] animate-fade-in" onClick={() => setShow(false)} />
+      <div className="fixed z-[61] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%-2rem)] md:w-[760px] bg-zinc-900 border border-zinc-800 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.5)] overflow-hidden animate-scale-in">
         
         {/* Absolute Close Button for the entire modal */}
         <button onClick={() => setShow(false)}
@@ -795,7 +795,7 @@ function InstagramTrends() {
           <a href={SITE_CONFIG.instagram} target="_blank" rel="noopener noreferrer">
             <button className="group inline-flex items-center gap-3 border-2 border-zinc-700 bg-zinc-900 text-white hover:bg-white hover:border-white hover:text-black px-8 py-3.5 rounded-2xl font-bold text-sm tracking-wide transition-all shadow-lg">
               <InstagramIcon />
-              Follow @mehtaboothouse
+              Follow @mehta_boot_house_tohana
             </button>
           </a>
         </div>
