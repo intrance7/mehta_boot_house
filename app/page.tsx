@@ -442,13 +442,13 @@ function DealBanner() {
 // ═══════════════════════════════════════════════════════════════
 function CategoryStrip() {
   const cats = [
-    { slug: "sports",  label: "Sports",  bg: "from-blue-900/30 to-blue-950", img: "/shoes1.png" },
-    { slug: "casual",  label: "Casual",  bg: "from-rose-900/30 to-rose-950", img: "/shoes1.png" },
-    { slug: "formal",  label: "Formal",  bg: "from-zinc-800 to-zinc-900", img: "/shoes1.png" },
-    { slug: "kids",    label: "Kids",    bg: "from-stone-800 to-stone-900", img: "/shoes1.png" },
-    { slug: "sandals", label: "Sandals", bg: "from-amber-900/30 to-amber-950", img: "/shoes1.png" },
-    { slug: "boots",   label: "Boots",   bg: "from-zinc-800 to-zinc-900", img: "/shoes1.png" },
-    { slug: "women",   label: "Women",   bg: "from-fuchsia-900/30 to-fuchsia-950", img: "/shoes1.png" },
+    { slug: "sports",  label: "Sports",  bg: "from-blue-900/30 to-blue-950", img: "/cat-sports.png" },
+    { slug: "casual",  label: "Casual",  bg: "from-rose-900/30 to-rose-950", img: "/cat-casual.png" },
+    { slug: "formal",  label: "Formal",  bg: "from-zinc-800 to-zinc-900", img: "/cat-formal.png" },
+    { slug: "kids",    label: "Kids",    bg: "from-stone-800 to-stone-900", img: "/cat-kids.png" },
+    { slug: "sandals", label: "Sandals", bg: "from-amber-900/30 to-amber-950", img: "/cat-sandals.png" },
+    { slug: "boots",   label: "Boots",   bg: "from-zinc-800 to-zinc-900", img: "/cat-boots.png" },
+    { slug: "women",   label: "Women",   bg: "from-fuchsia-900/30 to-fuchsia-950", img: "/cat-women.png" },
   ];
 
   return (
@@ -464,8 +464,8 @@ function CategoryStrip() {
           </Link>
         </div>
 
-        {/* Horizontal scroll on mobile, grid on desktop */}
-        <div className="flex gap-6 overflow-x-auto pb-8 pt-16 scrollbar-hide md:grid md:grid-cols-6 reveal-group">
+        {/* Horizontal scroll on mobile, 7-column grid on desktop */}
+        <div className="flex gap-5 overflow-x-auto pb-8 pt-16 scrollbar-hide md:grid md:grid-cols-7 reveal-group">
           {cats.map(cat => (
             <Link
               key={cat.slug}
