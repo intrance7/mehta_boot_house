@@ -249,7 +249,8 @@ export default function Navbar() {
         <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-6">
 
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 group">
+          <Link href="/" className="flex-shrink-0 group flex items-center gap-2.5">
+            <img src="/logo.png" alt="Mehta Boot House" className="h-9 w-9 object-contain rounded-lg" />
             <div className="flex flex-col leading-none">
               <span className="text-xs tracking-[0.3em] uppercase text-zinc-500 font-medium">Mehta</span>
               <span className="text-lg font-bold tracking-tight text-white">Boot House</span>
